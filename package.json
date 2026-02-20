@@ -1,0 +1,27 @@
+{
+  "name": "shaked-github-profile-info",
+  "version": "1.0.0",
+  "description": "HTTP badge service returning dynamic SVG badges displaying GitHub user information",
+  "main": "dist/server/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/server/index.ts",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "sql.js": "^1.10.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.2",
+    "@types/sql.js": "^1.4.9",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
