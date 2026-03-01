@@ -100,13 +100,10 @@ GET /badge/:type?username=<github_username>
 **Different styles:**
 
 ```markdown
-<!-- Flat (default) -->
 ![Followers](https://your-server.com/badge/followers?username=ddex3&style=flat&color=blue)
 
-<!-- Flat Square -->
 ![Followers](https://your-server.com/badge/followers?username=ddex3&style=flat-square&color=blue)
 
-<!-- Rounded -->
 ![Followers](https://your-server.com/badge/followers?username=ddex3&style=rounded&color=blue)
 ```
 
